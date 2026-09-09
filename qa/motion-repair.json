@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "cause": "Per-frame connected-component fitting scaled every pose to almost the full 192x208 cell, removing intended airborne whitespace.",
+  "repair": "Re-extracted only running-right, running-left, and jumping with shared row-stable slot viewports.",
+  "alpha_threshold": 16,
+  "before": {
+    "running-right": {
+      "height_range": [198, 198],
+      "bottom_gap_range": [5, 5]
+    },
+    "running-left": {
+      "height_range": [198, 198],
+      "bottom_gap_range": [5, 5]
+    },
+    "jumping": {
+      "height_range": [198, 198],
+      "bottom_gap_range": [5, 5]
+    }
+  },
+  "after": {
+    "running-right": {
+      "height_range": [161, 192],
+      "bottom_gaps": [9, 8, 9, 41, 8, 8, 7, 35]
+    },
+    "running-left": {
+      "height_range": [161, 194],
+      "bottom_gaps": [9, 9, 8, 41, 7, 8, 6, 39]
+    },
+    "jumping": {
+      "height_range": [161, 180],
+      "bottom_gaps": [6, 11, 28, 8, 6]
+    }
+  },
+  "visual_checks": {
+    "scale_pumping_removed": true,
+    "airborne_whitespace_preserved": true,
+    "jump_arc_preserved": true,
+    "clipping": false,
+    "running_right_faces_right": true,
+    "running_right_ornament_hidden": true,
+    "running_left_faces_left": true,
+    "running_left_ornament_visible": true
+  },
+  "unchanged_rows": [
+    "idle",
+    "waving",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-directions"
+  ]
+}

@@ -1,11 +1,16 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "qa_note": "Both cleaned contact sheets and all nine preview loops preserve one character identity, palette, silhouette, proportions, props, transparency, and correct state motion; blind validation is ok and all cardinal gates pass.",
+  "qa_note": "The repaired running-right, running-left, and jumping loops preserve the source-strip scale and vertical placement without clipping. All unaffected animation and look-direction rows remain unchanged.",
   "review_warnings": [
+    "The three stable-slot extraction warnings are accepted after visual playback confirmed stable scale, preserved airborne whitespace, and no clipping.",
     "045 and 315 isolated blind horizontal disagreement accepted because both labeled normal-size neighbor sequences preserve the correct quadrant and ordered progression.",
     "337.5 to 000 pixel-difference outlier accepted because the visible change is continuous asymmetric hair and ornament perspective with no size or pose pop."
   ],
-  "repair_rows": [],
-  "repair_notes": "none"
+  "repair_rows": [
+    "running-right",
+    "running-left",
+    "jumping"
+  ],
+  "repair_notes": "Replaced per-frame component fitting with row-stable slot viewports. Right-facing run frames keep the flower ornament hidden; left-facing run frames keep it visible."
 }

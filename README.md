@@ -2,6 +2,8 @@
 
 和風の装いと透明なサイバー扇子を組み合わせた、Codex用のオリジナルSDペットです。
 
+GitHubバックアップ: [norimoriyuki/codex-humea](https://github.com/norimoriyuki/codex-humea)
+
 ![Humea animation contact sheet](preview.png)
 
 ## 収録ファイル
@@ -12,7 +14,7 @@ humea/
 ├── spritesheet.webp     # v2スプライト（1536×2288、8列×11行）
 ├── preview.png          # 全アクション確認用
 ├── README.md
-└── qa/                  # 検証結果と16方向確認画像
+└── qa/                  # 検証結果、16方向確認画像、修正後GIF
 ```
 
 Codexが実行時に必要とするのは `pet.json` と `spritesheet.webp` の2ファイルです。`preview.png`、`README.md`、`qa/` はバックアップ・確認用で、そのまま同じフォルダに置いても問題ありません。
@@ -46,41 +48,23 @@ cp pet.json spritesheet.webp "$HUMEA_DEST/"
 
 その後、Codexの `Settings` → `Personalization` → `Pets` で `Refresh` を押し、`Humea` を選択します。既存の同名ペットを残したい場合は、上のコピー前に `${CODEX_HOME:-$HOME/.codex}/pets/humea` を別名でバックアップしてください。
 
-## GitHubへバックアップする — GitHub CLI
+## GitHubへバックアップする
 
-この環境では `git` と `gh` が利用できます。非公開リポジトリを推奨します。
-
-```bash
-cd /path/to/humea
-git init -b main
-git add .
-git commit -m "Add Humea Codex pet"
-gh auth status
-gh repo create humea-codex-pet --private --source=. --remote=origin --push
-```
-
-`gh auth status` が未ログインを示した場合は、`gh auth login` を先に実行します。
-
-## GitHub CLIを使わない場合
-
-1. GitHub上で `humea-codex-pet` という空のPrivateリポジトリを作成します。READMEや`.gitignore`の自動追加はオフにします。
-2. ローカルの `humea` フォルダで次を実行します。`USERNAME` は自分のGitHubユーザー名へ置き換えます。
+このフォルダは上記GitHubリポジトリの `main` ブランチへ接続済みです。以後の更新は次の手順でバックアップできます。
 
 ```bash
 cd /path/to/humea
-git init -b main
 git add .
-git commit -m "Add Humea Codex pet"
-git remote add origin git@github.com:USERNAME/humea-codex-pet.git
-git push -u origin main
+git commit -m "Update Humea Codex pet"
+git push origin main
 ```
 
-SSHを設定していない場合は、remote URLを `https://github.com/USERNAME/humea-codex-pet.git` にします。
+初回取得は `git clone https://github.com/norimoriyuki/codex-humea.git humea` で行えます。
 
 ## 別のMacへ復元する
 
 ```bash
-git clone git@github.com:USERNAME/humea-codex-pet.git humea
+git clone https://github.com/norimoriyuki/codex-humea.git humea
 cd humea
 HUMEA_DEST="${CODEX_HOME:-$HOME/.codex}/pets/humea"
 mkdir -p "$HUMEA_DEST"
@@ -99,8 +83,9 @@ Codexで `Refresh` → `Humea` → `Wake Pet` の順に選びます。
 - Used/unused cells and chroma edges: verified
 - Standard actions: idle, running-right, running-left, waving, jumping, failed, waiting, running, review
 - Look directions: 16 directions at 22.5° intervals
+- Running/jumping extraction: shared stable slots preserve character scale and airborne whitespace
 
-詳細は `qa/validation.json`、`qa/final-visual-qa.json`、`qa/direction-semantics.json` を参照してください。
+詳細は `qa/validation.json`、`qa/final-visual-qa.json`、`qa/motion-repair.json`、`qa/direction-semantics.json` を参照してください。修正後の動きは `qa/previews/` のGIFでも確認できます。
 
 スプライトが破損していないか確認する場合は、フォルダ直下で次を実行します。
 

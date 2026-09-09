@@ -1,0 +1,983 @@
+{
+  "ok": true,
+  "frames_root": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15459,
+          "bbox": [
+            41,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 63
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15419,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 65
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15417,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 52
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15463,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 55
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15455,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 56
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15340,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 59
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15854,
+          "bbox": [
+            26,
+            7,
+            166,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 269
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13401,
+          "bbox": [
+            34,
+            7,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16607,
+          "bbox": [
+            24,
+            7,
+            168,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 277
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13062,
+          "bbox": [
+            31,
+            5,
+            161,
+            169
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16188,
+          "bbox": [
+            28,
+            9,
+            164,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 312
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13512,
+          "bbox": [
+            34,
+            8,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 212
+        },
+        {
+          "index": 6,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16474,
+          "bbox": [
+            25,
+            7,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 280
+        },
+        {
+          "index": 7,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12731,
+          "bbox": [
+            30,
+            10,
+            161,
+            175
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 205
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15310,
+          "bbox": [
+            27,
+            7,
+            165,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13853,
+          "bbox": [
+            30,
+            6,
+            161,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 201
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15600,
+          "bbox": [
+            26,
+            6,
+            166,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 239
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12508,
+          "bbox": [
+            32,
+            5,
+            160,
+            169
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 197
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15602,
+          "bbox": [
+            27,
+            7,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 231
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14291,
+          "bbox": [
+            31,
+            6,
+            161,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 222
+        },
+        {
+          "index": 6,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15691,
+          "bbox": [
+            26,
+            6,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 245
+        },
+        {
+          "index": 7,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12711,
+          "bbox": [
+            30,
+            5,
+            162,
+            171
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 216
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15633,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 47
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16226,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 28
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16417,
+          "bbox": [
+            37,
+            5,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 36
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15541,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 41
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14047,
+          "bbox": [
+            29,
+            39,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 74
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14325,
+          "bbox": [
+            29,
+            18,
+            163,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 66
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15279,
+          "bbox": [
+            25,
+            5,
+            167,
+            182
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 89
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15043,
+          "bbox": [
+            29,
+            18,
+            163,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 77
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13753,
+          "bbox": [
+            40,
+            20,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 56
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14182,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 107
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14373,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 182
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15332,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 116
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15709,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 137
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15060,
+          "bbox": [
+            41,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 118
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14428,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 151
+        },
+        {
+          "index": 6,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14253,
+          "bbox": [
+            44,
+            5,
+            148,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 226
+        },
+        {
+          "index": 7,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13750,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 92
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15477,
+          "bbox": [
+            41,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 69
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15468,
+          "bbox": [
+            40,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 75
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15524,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 72
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15571,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 87
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15278,
+          "bbox": [
+            40,
+            5,
+            151,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 73
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15287,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 72
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15960,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 59
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15912,
+          "bbox": [
+            41,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 64
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15872,
+          "bbox": [
+            42,
+            5,
+            150,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 56
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16192,
+          "bbox": [
+            42,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 59
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15756,
+          "bbox": [
+            43,
+            5,
+            149,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 89
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15227,
+          "bbox": [
+            45,
+            5,
+            146,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 80
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15747,
+          "bbox": [
+            39,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 72
+        },
+        {
+          "index": 1,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15750,
+          "bbox": [
+            38,
+            5,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 58
+        },
+        {
+          "index": 2,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15839,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 59
+        },
+        {
+          "index": 3,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15734,
+          "bbox": [
+            38,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 63
+        },
+        {
+          "index": 4,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15722,
+          "bbox": [
+            39,
+            5,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 61
+        },
+        {
+          "index": 5,
+          "file": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15471,
+          "bbox": [
+            40,
+            5,
+            152,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 60
+        }
+      ]
+    }
+  ]
+}
