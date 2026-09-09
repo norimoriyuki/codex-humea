@@ -1,0 +1,12 @@
+{
+  "status": "accepted-minor",
+  "severity": "minor",
+  "validation_ok": true,
+  "cardinal_gates": "pass",
+  "warnings": [
+    "The isolated blind majority reversed only the horizontal comparison between 045 and 315.",
+    "The continuity metric flagged 337.5 to 000 as a local pixel-difference outlier."
+  ],
+  "resolution": "Accepted after independent final visual QA. At normal labeled size, 022.5 to 045 to 067.5 maintains a screen-right progression and 292.5 to 315 to 337.5 maintains a screen-left progression without reversal. The vertical axes were unanimous in blind review. The 337.5 to 000 visual change is continuous and arises from asymmetric hair and ornament perspective, with no scale or pose pop.",
+  "packaging_blocked": false
+}

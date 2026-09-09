@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "visual_qa": "pass",
+  "qa_note": "Both cleaned contact sheets and all nine preview loops preserve one character identity, palette, silhouette, proportions, props, transparency, and correct state motion; blind validation is ok and all cardinal gates pass.",
+  "review_warnings": [
+    "045 and 315 isolated blind horizontal disagreement accepted because both labeled normal-size neighbor sequences preserve the correct quadrant and ordered progression.",
+    "337.5 to 000 pixel-difference outlier accepted because the visible change is continuous asymmetric hair and ornament perspective with no size or pose pop."
+  ],
+  "repair_rows": [],
+  "repair_notes": "none"
+}

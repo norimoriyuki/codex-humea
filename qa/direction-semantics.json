@@ -1,0 +1,150 @@
+{
+  "overall": "pass-with-warnings",
+  "source": "Independent final visual QA of the cleaned labeled direction sheet and ordered loop.",
+  "directions": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "Frontal face with eyes and chin raised.",
+      "horizontal_evidence": "No horizontal component required.",
+      "vertical_evidence": "Iris placement and lifted chin read clearly upward.",
+      "reason": "Clear up cardinal."
+    },
+    {
+      "direction": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "Up gaze with a small screen-right face shift.",
+      "horizontal_evidence": "Face, pupils, and nose begin moving toward screen-right.",
+      "vertical_evidence": "Raised iris placement and chin retain the upward axis.",
+      "reason": "Even first up-right step."
+    },
+    {
+      "direction": "045",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "Labeled loop review reads the face and eyes farther screen-right/up, but two of three isolated blind reviewers classified its horizontal axis as screen-left.",
+      "horizontal_evidence": "Ordered-loop facial progression reads screen-right in labeled review; blind horizontal pair produced a conflicting majority.",
+      "vertical_evidence": "All three blind reviewers classified the upward axis correctly.",
+      "reason": "Intermediate horizontal readability needs final labeled-loop adjudication; this is not a cardinal gate."
+    },
+    {
+      "direction": "067.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "Three-quarter right face while retaining upward gaze.",
+      "horizontal_evidence": "Nose, face surface, and visible cheek progress toward the screen-right 090 profile.",
+      "vertical_evidence": "Eyes and chin remain visibly raised.",
+      "reason": "Clear transition into 090."
+    },
+    {
+      "direction": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "Nose and face point screen-right; character-left ornament is fully hidden.",
+      "horizontal_evidence": "Strong right profile, screen-right nose placement, and correct far-side ornament occlusion.",
+      "vertical_evidence": "No vertical component required.",
+      "reason": "Clear right cardinal confirmed unanimously in blind review."
+    },
+    {
+      "direction": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "Rightward face with eyes and chin beginning to lower.",
+      "horizontal_evidence": "Right-facing nose and cheek remain visible.",
+      "vertical_evidence": "Iris placement and chin lower from the 090 pose.",
+      "reason": "Continuous first down-right step."
+    },
+    {
+      "direction": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "Three-quarter right face plus clearly downward gaze.",
+      "horizontal_evidence": "Nose and face surface remain on the screen-right side.",
+      "vertical_evidence": "Lowered eyes and chin read down.",
+      "reason": "Readable down-right with no pose snap after repair."
+    },
+    {
+      "direction": "157.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "Nearly frontal/down while retaining a subtle screen-right component.",
+      "horizontal_evidence": "Small residual screen-right pupil and face offset remains before 180.",
+      "vertical_evidence": "Downward eyes and lowered chin dominate as expected near 180.",
+      "reason": "Correct final step before 180."
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "Frontal face with eyes and chin clearly down.",
+      "horizontal_evidence": "No horizontal component required.",
+      "vertical_evidence": "Lowered eyelids, irises, and chin read clearly downward.",
+      "reason": "Clear down cardinal confirmed unanimously in blind review."
+    },
+    {
+      "direction": "202.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Down gaze with a small screen-left face shift.",
+      "horizontal_evidence": "Face, pupils, and nose begin moving toward screen-left.",
+      "vertical_evidence": "Lowered eyes and chin retain the downward axis.",
+      "reason": "Natural first down-left step."
+    },
+    {
+      "direction": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Balanced down-left three-quarter face.",
+      "horizontal_evidence": "Nose and face surface are clearly screen-left.",
+      "vertical_evidence": "Eyes and chin remain lowered.",
+      "reason": "Readable down-left diagonal."
+    },
+    {
+      "direction": "247.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Approaches a left profile while retaining downward gaze.",
+      "horizontal_evidence": "Face construction progresses toward the screen-left 270 profile.",
+      "vertical_evidence": "Downward iris and chin angle remain visible.",
+      "reason": "Clear step into 270."
+    },
+    {
+      "direction": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "Nose and face point screen-left; character-left ornament is clearly visible.",
+      "horizontal_evidence": "Strong left profile, screen-left nose placement, and correct near-side ornament visibility.",
+      "vertical_evidence": "No vertical component required.",
+      "reason": "Clear left cardinal confirmed unanimously in blind review."
+    },
+    {
+      "direction": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "Leftward face with eyes and chin beginning to rise.",
+      "horizontal_evidence": "Left-facing nose and cheek remain visible.",
+      "vertical_evidence": "Iris placement and chin rise from the 270 pose.",
+      "reason": "Natural first up-left step."
+    },
+    {
+      "direction": "315",
+      "expected": "up-left",
+      "verdict": "warning",
+      "observed": "Labeled loop review reads a balanced up-left three-quarter face, but two of three isolated blind reviewers classified its horizontal axis as screen-right.",
+      "horizontal_evidence": "Ordered-loop facial progression reads screen-left in labeled review; blind horizontal pair produced a conflicting majority.",
+      "vertical_evidence": "All three blind reviewers classified the upward axis correctly.",
+      "reason": "Intermediate horizontal readability needs final labeled-loop adjudication; this is not a cardinal gate."
+    },
+    {
+      "direction": "337.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "Nearly frontal/up while retaining a subtle screen-left component.",
+      "horizontal_evidence": "Small residual screen-left pupil, nose, and face offset remains before 000.",
+      "vertical_evidence": "Raised eyes and chin dominate as expected near 000.",
+      "reason": "Correct boundary step; the pixel-difference warning reflects natural asymmetric hair and ornament perspective, not a visible snap."
+    }
+  ]
+}

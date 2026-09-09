@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "pet_id": "humea",
+  "display_name": "Humea",
+  "spriteVersionNumber": 2,
+  "run_dir": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run",
+  "spritesheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/final/spritesheet-extended.webp",
+  "validation": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/final/validation-extended.json",
+  "chroma_despill": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/chroma-despill-extended.json",
+  "contact_sheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/contact-sheet-extended.png",
+  "direction_sheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/look-directions.png",
+  "direction_semantics": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/direction-semantics.json",
+  "blind_direction_validation": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/direction-blind-validation.json",
+  "blind_review_resolution": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/blind-review-resolution.json",
+  "continuity": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/look-continuity.json",
+  "review": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/review.json",
+  "final_visual_qa": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/ruri-pet-run/qa/final-visual-qa.json",
+  "package": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea",
+  "archive": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea-codex-pet.zip",
+  "spritesheet_sha256": "dc1bf29725d0b3f6755142434daaa935918f46d32016926cc5e0af7f092f8e4b",
+  "accepted_warnings": [
+    "045 and 315 have weak isolated horizontal cues but pass labeled ordered-loop review without reversal.",
+    "337.5 to 000 is a pixel-difference outlier but has no visible snap or scale pop."
+  ]
+}
