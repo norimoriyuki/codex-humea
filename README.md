@@ -84,8 +84,9 @@ Codexで `Refresh` → `Humea` → `Wake Pet` の順に選びます。
 - Standard actions: idle, running-right, running-left, waving, jumping, failed, waiting, running, review
 - Look directions: 16 directions at 22.5° intervals
 - Running/jumping extraction: shared stable slots preserve character scale and airborne whitespace
+- Non-directional `running`: closed-mouth six-frame fan loop; the fan correctly occludes the far-side hand and sleeve
 
-詳細は `qa/validation.json`、`qa/final-visual-qa.json`、`qa/motion-repair.json`、`qa/direction-semantics.json` を参照してください。修正後の動きは `qa/previews/` のGIFでも確認できます。
+詳細は `qa/validation.json`、`qa/final-visual-qa.json`、`qa/motion-repair.json`、`qa/direction-semantics.json` を参照してください。修正後の動きは `qa/previews/` のGIF（`running.gif` を含む）でも確認できます。
 
 スプライトが破損していないか確認する場合は、フォルダ直下で次を実行します。
 

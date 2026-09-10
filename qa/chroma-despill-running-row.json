@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/row/running-preclean.png",
+  "output": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/row/running-clean.png",
+  "chroma_key": "#00FF00",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 10849,
+  "decontaminated_pixels": 10848,
+  "spill_suppressed_pixels": 10849,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 1824,
+    "r0c5": 1822,
+    "r0c4": 1819,
+    "r0c1": 1803,
+    "r0c2": 1800,
+    "r0c0": 1781
+  },
+  "alpha_preserved": true
+}

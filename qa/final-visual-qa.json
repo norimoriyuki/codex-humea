@@ -1,7 +1,7 @@
 {
   "ok": true,
   "visual_qa": "pass",
-  "qa_note": "The repaired running-right, running-left, and jumping loops preserve the source-strip scale and vertical placement without clipping. All unaffected animation and look-direction rows remain unchanged.",
+  "qa_note": "The repaired running-right, running-left, and jumping loops preserve the source-strip scale and vertical placement without clipping. The non-directional running row now uses the user-approved closed-mouth fan loop with correct fan-over-hand occlusion. All other animation and look-direction rows remain pixel-identical to the previous atlas.",
   "review_warnings": [
     "The three stable-slot extraction warnings are accepted after visual playback confirmed stable scale, preserved airborne whitespace, and no clipping.",
     "045 and 315 isolated blind horizontal disagreement accepted because both labeled normal-size neighbor sequences preserve the correct quadrant and ordered progression.",
@@ -10,7 +10,8 @@
   "repair_rows": [
     "running-right",
     "running-left",
-    "jumping"
+    "jumping",
+    "running"
   ],
-  "repair_notes": "Replaced per-frame component fitting with row-stable slot viewports. Right-facing run frames keep the flower ornament hidden; left-facing run frames keep it visible."
+  "repair_notes": "Replaced per-frame component fitting with row-stable slot viewports. Right-facing run frames keep the flower ornament hidden; left-facing run frames keep it visible. The non-directional running row was replaced independently with six approved frames; frames 01 and 03 have closed mouths, frame 02 has no edge fragment, and the fan occludes the far-side hand and sleeve."
 }

@@ -3,11 +3,11 @@
   "pet_id": "humea",
   "display_name": "Humea",
   "spriteVersionNumber": 2,
-  "run_dir": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair",
-  "spritesheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/final/spritesheet-extended.webp",
-  "validation": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/final/validation-extended.json",
-  "chroma_despill": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/qa/chroma-despill-extended.json",
-  "contact_sheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/qa/contact-sheet-extended-half.png",
+  "run_dir": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final",
+  "spritesheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/final/spritesheet-extended.webp",
+  "validation": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/final/validation-extended.json",
+  "chroma_despill": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/qa/chroma-despill-running-row.json",
+  "contact_sheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-running-fan-final/qa/contact-sheet-extended.png",
   "direction_sheet": "/Users/moriyuki/Documents/Codex/2026-09-09/co/work/humea-motion-repair/qa/look-directions.png",
   "direction_semantics": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea/qa/direction-semantics.json",
   "blind_direction_validation": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea/qa/direction-blind-validation.json",
@@ -17,10 +17,13 @@
   "final_visual_qa": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea/qa/final-visual-qa.json",
   "package": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea",
   "archive": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea-codex-pet.zip",
-  "spritesheet_sha256": "d2ebda4ecd1dc563d33cbcdb58ff97c80896f4e70d0445da4f50de5c3ebb9239",
+  "running_preview": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea/qa/previews/running.gif",
+  "running_review": "/Users/moriyuki/Documents/Codex/2026-09-09/co/outputs/humea/qa/running-review.json",
+  "spritesheet_sha256": "65043be2abab622759f01e400b10b83bc574eb70b2dc36b3e6332a4f0a0336fc",
   "accepted_warnings": [
     "Stable-slot extraction warnings for running-right, running-left, and jumping were cleared by visual playback review.",
     "045 and 315 have weak isolated horizontal cues but pass labeled ordered-loop review without reversal.",
-    "337.5 to 000 is a pixel-difference outlier but has no visible snap or scale pop."
+    "337.5 to 000 is a pixel-difference outlier but has no visible snap or scale pop.",
+    "The non-directional running row uses the user-approved six-frame closed-mouth fan loop; all pixels outside that row are unchanged."
   ]
 }
